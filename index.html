@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVP Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="ikon/logo.png">
+    <script src="https://kit.fontawesome.com/96ced10c0a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+</head>
+<body>
+    <nav class="navigacio">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkfa">
+            <i class="fa-solid fa-align-justify"></i>
+        </label>
+        <label class="logo">MVP</label>
+        <ul class="unorderedList">
+            <li class="lista"><a class="active" href="index.html" target="_self">Főoldal</a></li>
+            <li class="lista"><a href="#korites" target="_self">Rólunk</a></li>
+            <li class="lista"><a href="Szolgáltatásaink.html" target="_self">Szolgáltatások</a></li>
+            <li class="lista"><a href="Elérhetőségeink.html" target="_self">Elérhetőség</a></li>
+            <li class="lista"><a href="Műveink.html" target="_self">Műveink</a></li>
+        </ul>
+    </nav>
+    <section class="asd">
+        <div class="wrapper">
+            <h2>We are <span class="spann"></span></h2>
+            <p>
+                Ezen az oldalon bemutatunk mindent a cégünkről, milyen szolgáltatásaink vannak és pontosabban kik vagyunk.
+                <br> Nézz körül!:)
+            </p>
+            <a href="#korites" target="_self">Ismerj Meg Minket</a>
+        </div> 
+    </section>
+    <section class="kepekrolunkkorites id" id="korites">
+        <section class="kepekrolunk" id="amikepeink">
+            <div class="szoveg">
+                <h1 class="kisebb">Na akkor kik is vagyunk?!:</h1>
+                <h1 class="kozepso">Mi egy "Univerzális & Digitális Stúdió" vagyunk.</h1>
+                <h1 class="nagyobb">Videójáték fejlesztéssel, animációk létrehozásával, számítógépes grafikával és még sok minden
+                mással dolgozunk itt az MVP-nél. Csapatunk energetikus, fejlett, barátságos és mindig napra kész!</h1>
+                <div class="oszlopos">
+                    <div class="oszlop1">
+                        <i class="fa-solid fa-photo-film"></i>
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Eos delectus debitis iustoLorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Eos delectus debitis iustoLorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Eos delectus debitis iusto!</p>
+                    </div>
+                    <div class="oszlop2">
+                        <i class="fa-solid fa-computer"></i>
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Eos delectus debitis iustoLorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Eos delectus debitis iustoLorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Eos delectus debitis iusto!</p>
+                    </div>
+                    <div class="oszlop3">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Eos delectus debitis iustoLorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Eos delectus debitis iustoLorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         Eos delectus debitis iusto!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="kepekIMGs">
+                <div class="kep">
+                    <img class="kep__IMG" src="kepeink/lzen.jpg" alt="Lengyel Zoltán">
+                    <div class="kep__Overlay">
+                        <div class="kep__Title">Lengyel Zoltán</div>
+                        <p class="kep__Desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente animi sint laborum perspiciatis tempora? Cupiditate?</p>
+                        <br>
+                        <a class="profilelerhetosegek" href="Elérhetőségeink.html">Elérhetőségek</a>
+                    </div>
+                </div>
+                <div class="kep">
+                     <img class="kep__IMG" src="kepeink/gabcsixx.jpg" alt="Budai Gábor">
+                    <div class="kep__Overlay">
+                        <div class="kep__Title">Budai Gábor</div>
+                        <p class="kep__Desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi laboriosam doloribus culpa facilis beatae voluptates laborum odio delectus eveniet, sint animi ducimus earum at fugiat odit! Hic saepe fuga doloribus. Voluptates nemo minima excepturi beatae.</p>
+                        <a class="profilelerhetosegek" href="Elérhetőségeink.html">Elérhetőségek</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="myslideshow" id="slider">
+        <div class="container"><!--Ez a kettő class segít 'alkalmazkodóvá tenni nagy képernyőkön'-->
+            <div class="subcontainer"><!--Ez a kettő class segít 'alkalmazkodóvá tenni nagy képernyőkön'-->
+                <div class="slider-wrapper">
+                    <div class="controller">
+                        <div>
+                            <h2>Egy-két példa a munkáinkról:</h2>
+                        </div>
+                        <div id="controls">
+                            <button class="previous"><i class="fa-solid fa-angle-left"></i></button>
+                            <button class="next"><i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="my-slider">
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-1">
+                                    <a href="Műveink.html">Nézd Meg</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h3>Draven</h3>
+                                    <p>League of Legends</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-2">
+                                    <a href="Műveink.html">Nézd Meg</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h3>Akali</h3>
+                                    <p>League of Legends</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-3">
+                                    <a href="Műveink.html">Nézd Meg</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h3>Ahri</h3>
+                                    <p>League of Legends</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-4">
+                                    <a href="Műveink.html">Nézd Meg</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h3>Katarina</h3>
+                                    <p>League of Legends</p>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-5">
+                                    <a href="Műveink.html">Nézd Meg</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h3>Viego</h3>
+                                    <p>League of Legends</p>
+                                </div>
+                            </div>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <a href="#" class="to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>
