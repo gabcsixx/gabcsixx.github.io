@@ -141,7 +141,7 @@ section div.wrapper a.readmore:hover{
 }
 span.spann:before{
     content: '';
-    animation: animate infinite 12s;
+    animation: animate infinite 15s;
 }
 @keyframes animate{
     0%{
