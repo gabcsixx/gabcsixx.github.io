@@ -286,10 +286,10 @@ body section.myslideshow{
 .previous:hover, .next:hover{
     border: 3px solid gray;
 }
-.to-top{
-    background: white;
+.to-top {
+    background: crimson;
     position: fixed;
-    bottom: 16px;
+    bottom: 32px;
     right: 32px;
     width: 50px;
     height: 50px;
@@ -297,15 +297,21 @@ body section.myslideshow{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 32px;
-    color: #1f1f1f;
+    font-size: 24px;
+    color: white;
     text-decoration: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     opacity: 0;
     pointer-events: none;
-    transition: all .4s;
+    transition: all 0.4s ease;
+    z-index: 999;
 }
 .to-top.active {
-    bottom: 32px;
-    pointer-events: auto;
-    opacity: 1;
-}
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0);
+    }
+    .to-top:hover {
+        background: darkred;
+        transform: scale(1.1);
+    }
