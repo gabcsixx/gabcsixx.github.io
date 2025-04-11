@@ -311,7 +311,53 @@ body section.myslideshow{
         pointer-events: auto;
         transform: translateY(0);
     }
-    .to-top:hover {
+.to-top:hover {
         background: darkred;
         transform: scale(1.1);
     }
+.slide-img{
+    width: 100%;
+    height: 275px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.slide-img:hover{
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.899) inset;
+}
+
+.slide-img a{
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color:white;
+    opacity: 0;
+}
+
+.slide-img:hover a{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.img-1{
+    background-image: url(images/Ingwë.jpg);
+}
+.img-2 {
+    background-image: url(images/Galadriel.jfif);
+}
+.img-3 {
+    background-image: url(images/Elwë.webp);
+}
+.img-4 {
+    background-image: url(images/Cirdan.webp);
+}
+.img-5 {
+    background-image: url(images/Amroth.webp);
+}
