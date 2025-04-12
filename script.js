@@ -36,3 +36,15 @@ window.addEventListener("scroll", () => {
         toTop.classList.remove("active");
     }
 })
+
+document.querySelectorAll(".unorderedList li a").forEach(link => {
+    link.addEventListener("click", () => {
+        const check = document.getElementById("check");
+        if (check.checked) {
+            check.checked = false;
+        }
+        if (window.innerWidth <= 858 && check.checked) {
+            check.checked = false;
+        }
+    });
+});

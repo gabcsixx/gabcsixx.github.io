@@ -1,5 +1,6 @@
 body{
-    background-color: azure;
+    background-color: midnightblue;
+    margin-top:80px;
 }
 *{
     padding: 0;
@@ -9,10 +10,16 @@ body{
     box-sizing: border-box;
 }
 nav.navigacio {
-    background-image: url(hatter/csillag.jpg);
+    background-color: rgba(0, 0, 0, 0.6); 
+    backdrop-filter: blur(5px);
     height: 80px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
+
 nav.navigacio ul.unorderedList{
     float: right;
     margin-right: 20px;
@@ -80,8 +87,13 @@ a.active,a:hover{
     }
 }
 @media(max-width: 858px){
-    .checkfa{
-        display:block;
+    .checkfa {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 30px;
+        font-size: 28px;
+        z-index: 1100;
     }
     ul.unorderedList{
         z-index: 1000;
